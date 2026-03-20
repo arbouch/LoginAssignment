@@ -1,6 +1,7 @@
 # MiniPortal - Simple Run Guide
 
-!!!!!!!I chose Minimal API because this project has a small scope and only a few endpoints, so it keeps the implementation simple, fast to deliver, and easy to evolve later if needed.!!!!!!!!!
+!!!!!!!  I chose Minimal API because this project has a small scope and only a few endpoints, so it keeps the implementation simple, fast to deliver, and easy to evolve later if needed.!!!!!!!!!
+
 This guide explains, step by step, how to start this project even if you are not from a technical background.
 
 ## What this project has
