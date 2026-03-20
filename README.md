@@ -29,11 +29,13 @@ If you see a version number (for example `8.x.x`), you are ready.
 - Frontend URL: `https://localhost:7200`
 
 ## How to run the backend
-In PowerShell (inside the project folder), run:
+In a terminal, go to the **MiniPortal** folder (the one that contains `MiniPortal.sln`), then run:
 
 ```powershell
-dotnet run --project .\src\Backend.Api\Backend.Api.csproj --launch-profile http -c Debug
+dotnet run --project src/Backend.Api/Backend.Api.csproj --launch-profile http -c Debug
 ```
+
+**Important:** Use **forward slashes** (`/`) as above. If you use Windows backslashes (`\`) inside **Git Bash** or some terminals, `\s` and `\B` can be treated as escape sequences and the path breaks (you may see errors like `Project file does not exist` or a mangled path).
 
 What to expect:
 - It starts the backend service.
@@ -49,7 +51,7 @@ cd "YOUR_PATH_TO_PROJECT\MiniPortal"
 Then run:
 
 ```powershell
-dotnet run --project .\src\Frontend.Blazor\Frontend.Blazor.csproj --launch-profile http -c Debug
+dotnet run --project src/Frontend.Blazor/Frontend.Blazor.csproj --launch-profile http -c Debug
 ```
 
 What to expect:
@@ -65,7 +67,7 @@ What to expect:
 Stop running apps first (recommended), then in PowerShell from project folder run:
 
 ```powershell
-dotnet test .\tests\Backend.Api.Tests\Backend.Api.Tests.csproj -c Debug
+dotnet test tests/Backend.Api.Tests/Backend.Api.Tests.csproj -c Debug
 ```
 
 What to expect:
