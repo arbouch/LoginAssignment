@@ -10,10 +10,19 @@ This guide explains, step by step, how to start this project even if you are not
 ## Before you start (one-time setup)
 1. Install **.NET 8 SDK** (required).
 2. Open **PowerShell**.
-3. Go to the folder where you downloaded/cloned this project:
+3. Go to the **root folder of this repository** on your computer — the folder that contains **`MiniPortal.sln`** (that file is the solution; the folder is *not* required to be named `MiniPortal`).
+
+   - If you used **Git clone**, the folder is usually named like the repo (for example **`LoginAssignment`**), not `MiniPortal`.
+   - If you unzipped a **ZIP**, use whatever folder name you have, as long as **`MiniPortal.sln`** is inside it.
 
 ```powershell
-cd "YOUR_PATH_TO_PROJECT\MiniPortal"
+cd "YOUR_PATH_TO_FOLDER_THAT_CONTAINS_MiniPortal.sln"
+```
+
+Example (your path will differ):
+
+```powershell
+cd "C:\Users\You\source\repos\LoginAssignment"
 ```
 
 Optional check:
@@ -29,7 +38,7 @@ If you see a version number (for example `8.x.x`), you are ready.
 - Frontend URL: `https://localhost:7200`
 
 ## How to run the backend
-In a terminal, go to the **MiniPortal** folder (the one that contains `MiniPortal.sln`), then run:
+In a terminal, go to the **repository root** (the folder that contains `MiniPortal.sln`), then run:
 
 ```powershell
 dotnet run --project src/Backend.Api/Backend.Api.csproj --launch-profile http -c Debug
@@ -42,10 +51,10 @@ What to expect:
 - Keep this terminal open while using the app.
 
 ## How to run the frontend
-Open a **second PowerShell window** and go to the same project folder:
+Open a **second** terminal window and go to the **same** folder (the one that contains `MiniPortal.sln`):
 
 ```powershell
-cd "YOUR_PATH_TO_PROJECT\MiniPortal"
+cd "YOUR_PATH_TO_FOLDER_THAT_CONTAINS_MiniPortal.sln"
 ```
 
 Then run:
