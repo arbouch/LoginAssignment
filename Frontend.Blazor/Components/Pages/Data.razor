@@ -1,0 +1,98 @@
+@page "/data"
+@rendermode InteractiveServer
+
+<h1>Data</h1>
+
+<button class="btn btn-primary" @onclick="LoadDataAsync" disabled="@_loading">
+    Load data
+</button>
+
+@if (!string.IsNullOrWhiteSpace(_message))
+{
+    <p class="text-danger mt-2">@_message</p>
+}
+
+@if (_items is not null)
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in _items)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private bool _loading;
+    private string? _message;
+    private List<ItemDto>? _items;
+
+    [Inject] private IHttpClientFactory HttpClientFactory { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+    [Inject] private AuthTokenStore TokenStore { get; set; } = default!;
+
+    private async Task LoadDataAsync()
+    {
+        _loading = true;
+        _message = null;
+
+        try
+        {
+            var token = TokenStore.Token;
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                NavigationManager.NavigateTo("/login");
+                return;
+            }
+
+            var client = HttpClientFactory.CreateClient("BackendApi");
+            using var request = new HttpRequestMessage(HttpMethod.Get, "api/data");
+            request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            var response = await client.SendAsync(request);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+            {
+                TokenStore.Clear();
+                NavigationManager.NavigateTo("/login");
+                return;
+            }
+
+            response.EnsureSuccessStatusCode();
+
+            var result = await response.Content.ReadFromJsonAsync<DataResponse>();
+            _items = result?.items ?? new List<ItemDto>();
+        }
+        catch (Exception ex)
+        {
+            _message = ex.Message;
+        }
+        finally
+        {
+            _loading = false;
+        }
+    }
+
+    private sealed class DataResponse
+    {
+        public List<ItemDto> items { get; set; } = new();
+    }
+
+    private sealed class ItemDto
+    {
+        public int id { get; set; }
+        public string name { get; set; } = string.Empty;
+    }
+}
+

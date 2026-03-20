@@ -1,0 +1,66 @@
+@page "/"
+@page "/login"
+@rendermode InteractiveServer
+
+<h1>Login</h1>
+
+<div class="mb-3">
+    <label class="form-label">Username</label>
+    <input class="form-control" @bind="_model.username" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Password</label>
+    <input class="form-control" type="password" @bind="_model.password" />
+</div>
+
+<button class="btn btn-primary" @onclick="LoginAsync">Login</button>
+
+@if (!string.IsNullOrWhiteSpace(_message))
+{
+    <p class="text-danger mt-2">@_message</p>
+}
+
+@code {
+    private readonly LoginModel _model = new();
+    private string? _message;
+
+    [Inject] private IHttpClientFactory HttpClientFactory { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+    [Inject] private AuthTokenStore TokenStore { get; set; } = default!;
+
+    private async Task LoginAsync()
+    {
+        _message = null;
+
+        var client = HttpClientFactory.CreateClient("BackendApi");
+        var response = await client.PostAsJsonAsync("api/auth/login", _model);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var result = await response.Content.ReadFromJsonAsync<TokenResponse>();
+            if (!string.IsNullOrWhiteSpace(result?.token))
+            {
+                TokenStore.SetToken(result.token);
+                NavigationManager.NavigateTo("/data");
+                return;
+            }
+        }
+
+        _message = response.StatusCode == System.Net.HttpStatusCode.Unauthorized
+            ? "Invalid credentials."
+            : "Login failed.";
+    }
+
+    private sealed class LoginModel
+    {
+        public string username { get; set; } = string.Empty;
+        public string password { get; set; } = string.Empty;
+    }
+
+    private sealed class TokenResponse
+    {
+        public string token { get; set; } = string.Empty;
+    }
+}
+

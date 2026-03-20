@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|c:\\users\\lite\\source\\repos\\miniportal\\frontend.blazor\\authtokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|solutionrelative:frontend.blazor\\authtokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|c:\\users\\lite\\source\\repos\\miniportal\\frontend.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|solutionrelative:frontend.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA4F148-42CE-425F-AF9B-E085D04DE51E}|Backend.Api.Tests\\Backend.Api.Tests.csproj|c:\\users\\lite\\source\\repos\\miniportal\\backend.api.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA4F148-42CE-425F-AF9B-E085D04DE51E}|Backend.Api.Tests\\Backend.Api.Tests.csproj|solutionrelative:backend.api.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|c:\\users\\lite\\source\\repos\\miniportal\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|solutionrelative:backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|c:\\users\\lite\\source\\repos\\miniportal\\backend.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|solutionrelative:backend.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|c:\\users\\lite\\source\\repos\\miniportal\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|c:\\users\\lite\\source\\repos\\miniportal\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}|Backend.Api\\Backend.Api.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|c:\\users\\lite\\source\\repos\\miniportal\\frontend.blazor\\components\\pages\\data.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|solutionrelative:frontend.blazor\\components\\pages\\data.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|c:\\users\\lite\\source\\repos\\miniportal\\frontend.blazor\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91607BE2-B840-440D-978B-E48BBBDF55EF}|Frontend.Blazor\\Frontend.Blazor.csproj|solutionrelative:frontend.blazor\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Data.razor",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Components\\Pages\\Data.razor",
+              "RelativeDocumentMoniker": "Frontend.Blazor\\Components\\Pages\\Data.razor",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Components\\Pages\\Data.razor",
+              "RelativeToolTip": "Frontend.Blazor\\Components\\Pages\\Data.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T23:33:27.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend.Blazor\\Program.cs",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Program.cs",
+              "RelativeToolTip": "Frontend.Blazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T23:32:40.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthTokenStore.cs",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\AuthTokenStore.cs",
+              "RelativeDocumentMoniker": "Frontend.Blazor\\AuthTokenStore.cs",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\AuthTokenStore.cs",
+              "RelativeToolTip": "Frontend.Blazor\\AuthTokenStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T23:32:37.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Frontend.Blazor\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Frontend.Blazor\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Frontend.Blazor\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T19:38:59.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\appsettings.json",
+              "RelativeToolTip": "Backend.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-19T19:22:21.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Backend.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Program.cs",
+              "RelativeToolTip": "Backend.Api\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwJAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:22:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Backend.Api\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Backend.Api\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:21:27.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Backend.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Backend.Api.csproj",
+              "RelativeDocumentMoniker": "Backend.Api\\Backend.Api.csproj",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api\\Backend.Api.csproj",
+              "RelativeToolTip": "Backend.Api\\Backend.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T19:20:47.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Backend.Api.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\LITE\\source\\repos\\MiniPortal\\Backend.Api.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Backend.Api.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:16:32.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
