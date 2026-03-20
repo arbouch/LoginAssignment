@@ -32,7 +32,7 @@ If you see a version number (for example `8.x.x`), you are ready.
 In PowerShell (inside the project folder), run:
 
 ```powershell
-dotnet run --project .\Backend.Api\Backend.Api.csproj --launch-profile http -c Debug
+dotnet run --project .\src\Backend.Api\Backend.Api.csproj --launch-profile http -c Debug
 ```
 
 What to expect:
@@ -49,7 +49,7 @@ cd "YOUR_PATH_TO_PROJECT\MiniPortal"
 Then run:
 
 ```powershell
-dotnet run --project .\Frontend.Blazor\Frontend.Blazor.csproj --launch-profile http -c Debug
+dotnet run --project .\src\Frontend.Blazor\Frontend.Blazor.csproj --launch-profile http -c Debug
 ```
 
 What to expect:
@@ -65,7 +65,7 @@ What to expect:
 Stop running apps first (recommended), then in PowerShell from project folder run:
 
 ```powershell
-dotnet test .\Backend.Api.Tests\Backend.Api.Tests.csproj -c Debug
+dotnet test .\tests\Backend.Api.Tests\Backend.Api.Tests.csproj -c Debug
 ```
 
 What to expect:
