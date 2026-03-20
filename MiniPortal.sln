@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api", "Backend.Api\Backend.Api.csproj", "{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api", "src\Backend.Api\Backend.Api.csproj", "{CF2A7BD8-514C-4DBE-B510-A6F5FD894098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend.Blazor", "Frontend.Blazor\Frontend.Blazor.csproj", "{91607BE2-B840-440D-978B-E48BBBDF55EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend.Blazor", "src\Frontend.Blazor\Frontend.Blazor.csproj", "{91607BE2-B840-440D-978B-E48BBBDF55EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api.Tests", "Backend.Api.Tests\Backend.Api.Tests.csproj", "{EEA4F148-42CE-425F-AF9B-E085D04DE51E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api.Tests", "tests\Backend.Api.Tests\Backend.Api.Tests.csproj", "{EEA4F148-42CE-425F-AF9B-E085D04DE51E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
